@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@700&display=swap');
+
+
+.Logo_1{
+  display: flex;
+  justify-content: space-between;
+}
+.Logo{
+    width: 170px;
+    height: auto;
+}
+nav{
+    border: 20px solid  #40202A;;
+    border-radius: 2px;
+    
+}
+li{
+   
+    display: inline-block;
+    padding: 15px;
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--texto-logo-cor);
+}
+.home_{
+    background-color: #b87e09;
+    font-weight: bold;
+    color: var(--cor-botao);
+}
+.home_1{
+color: blue;
+font-weight: bold;
+}
+

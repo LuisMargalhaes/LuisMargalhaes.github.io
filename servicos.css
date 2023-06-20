@@ -1,0 +1,51 @@
+.servicos{
+    display: flex;
+    font-family: var(--texto-logo);
+    margin: 5%;
+}
+.nossos_servicos{
+    color: #40202A;
+    background-color: #b87e09;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    border-radius: 7px;
+
+}
+.titulo_div{
+   margin-left: 10%;
+    color: #40202A;
+
+}
+.titulo_div1{
+    margin-left: 12%;
+     color: #40202A;
+ 
+ }
+ .titulo_div2{
+    margin-left: 40%;
+     color: #40202A;
+ 
+ }
+.img_servicos{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.barba_div{
+    grid-row-start: 1;
+    grid-column: 2/10;
+}
+.sobra_div{
+    grid-row-start: 1;
+    grid-column: 5/10;
+}
+.corte_div{
+    grid-row-start: 1;
+    grid-column: 8/10;
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
